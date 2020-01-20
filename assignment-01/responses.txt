@@ -1,0 +1,12 @@
+1. How is using the web different than the internet?
+     The internet is a network of electronic devices that can communicate with each other through physical 
+     connections such as a wire or satellite. The web is a way to easily navigate these connections through 
+     the use of hyperlinks.
+2. Briefly describe how the internet works.
+     The systems connected through the internet communicate with each other by sending packets of information 
+     through multiple routers until they reach their destination (a certain IP address which acts as directional instructions).
+3. What is a directory, and what is its relationship to files?
+     A directory is essentially a “folder” for containing and organizing files.
+4. Why is using a VCS beneficial?
+     A VCS allows you to track changes made to your projects, revert back to previous versions if needed, share and collaborate 
+     with others on your projects. It also acts as a cloud backup for your files.
