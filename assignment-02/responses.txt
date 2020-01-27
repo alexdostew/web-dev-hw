@@ -1,0 +1,22 @@
+Briefly describe one way how data travels on the internet.
+
+Data travels on the internet by being broken down into small "packets" and sent through routers
+which tell the packets which routes to take to reach the intended internet address where they are
+then reassembled and checked through transmission control protocol.
+
+
+What is the relationship between an IP address and the DNS?
+
+an IP address is a unique number given to each device on the network which acts like a "mailing address" for data.
+the DNS associates names with a corresponding address. Your computer uses the DNS to look up domain names and obtain
+the IP address that you are trying to connect to.
+
+
+What is a cookie?
+
+Cookies are what websites use to remember who you are. It is basically an ID number stored in your web browser.
+
+
+List the three basic parts of a URL.
+
+The protocol, domain name and path
