@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Roxy Theater">
+    <meta name="author" content="Alexander Stewart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roxy Theater</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>The Roxy Theater</h1>
+
+    <h2>Contact</h2>
+    <address>
+      718 S. Higgins Ave.<br />
+      Missoula, Montana  59801<br />
+      (406) 728-9380
+    </address>
+    <a href="mailto:#">Email the Roxy</a>
+
+    <h2>Showtimes</h2>
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Upcoming Showings</th>
+        <th scope="col">Showtime</th>
+      </tr>
+      <tr>
+        <th scope="row">Thursday</th>
+        <td>Parasite</td>
+        <td>2:00 PM</td>
+      </tr>
+      <tr>
+        <th scope="row">Friday</th>
+        <td>The Lodge</td>
+        <td>3:00 PM</td>
+      </tr>
+      <tr>
+        <th scope="row">Saturday</th>
+        <td>The Princess Bride</td>
+        <td>2:00 PM</td>
+      </tr>
+      <tr>
+        <th scope="row">Sunday</th>
+        <td>FernGully: The Last Rainforest in 35mm</td>
+        <td>2:00 PM</td>
+      </tr>
+    </table>
+
+    <h2>Join Our Mailing List</h2>
+    <form action="index.html" method="post">
+      <p>
+        Email:
+        <input type="text" name="email" autofocus />
+      </p>
+      <p>Terms of Service:</p>
+      <input type="radio" name="terms" value="agree">Agree
+      <br />
+      <input type="radio" name="terms" value="disagree">Disagree
+      <p>
+        Comment:<br />
+        <textarea name="comment" rows="8" cols="60" placeholder="Enter your comment..."></textarea>
+      </p>
+      <input type="submit" name="submitform" value="Submit">
+    </form>
+  </body>
+</html>
