@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Lato:wght@700&display=swap');
+
+body {
+  background-color: rgb(20,20,20);
+  color: white;
+  padding: 5px;
+  font-family: 'Gotu', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.link {
+  margin-top: 30px;
+}
+
+a {
+  padding: 20px;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(220,220,220);
+  color: rgb(25,20,20);
+}
+
+.text {
+  background-color: rgb(220,220,220);
+  color: rgb(25,20,20);
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p::first-letter{
+  color: rgb(150,90,90);
+  font-size: 20px;
+}
