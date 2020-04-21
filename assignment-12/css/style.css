@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+  padding:0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(193, 72, 72);
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-content {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  color: white;
+  vertical-align: middle;
+  max-height: 80px;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item > a {
+  line-height: 60px;
+  float: left;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item > a:hover, .active > a {
+  background-color: white;
+  color: rgb(193, 72, 72);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0;
+  margin-top: 80px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover > a {
+  background-color: white;
+  color: rgb(193, 72, 72);
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  color: rgb(193, 72, 72);
+}
+
+.dropdown-item:hover {
+  background-color: rgb(193, 72, 72);
+  color: white;
+}
+
+main {
+  margin: 100px auto 50px auto;
+  max-width: 1080px;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.page-banner {
+  width: 100%;
+  background-color: rgb(40,38,41);
+  height: 300px;
+}
+
+.home {
+  background-image:url("../images/man-playing-guitar.jpg");
+  background-size: cover;
+  background-position: 10% 80%;
+}
+
+.about {
+  background-image:url("../images/group.jpg");
+  background-size: cover;
+}
+
+.services {
+  background-image:url("../images/strings.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.content {
+  text-align: center;
+}
+
+.portrait {
+  width: 100%;
+  display: block;
+  min-height: 300px;
+  margin-top: 30px;
+}
+
+.portrait-img {
+  width: 300px;
+}
+
+.about-name {
+  margin: 0;
+}
+.about-p {
+  margin-top: 0;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+.form-item {
+  display:inline-block;
+}
