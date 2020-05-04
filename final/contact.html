@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Final Website Contact Page">
+    <meta name="author" content="Alexander Stewart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Website - Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-content">
+        <div class="nav-item">
+          <a href="./index.html">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="./about.html">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="./services.html">Services</a>
+        </div>
+        <div class="nav-item active">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="#">Learn More</a>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="https://www.autodesk.com/products/maya/overview">Maya - Modeling</a>
+            <a class="dropdown-item" href="https://home.otoy.com/render/octane-render/">Octane - Rendering</a>
+            <a class="dropdown-item" href="https://www.blender.org/">Blender - Free Open Source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <h1>Contact Us</h1>
+      <div class="content">
+        <form action="contact.html" method="post">
+          <div class="form-item">
+            <label for="fName">First Name</label><br/>
+            <input type="text" name="fName" id="fName" autofocus />
+          </div>
+
+          <div class="form-item">
+            <label for="lName">Last Name</label><br/>
+            <input type="text" name="lName" id="lName" />
+          </div>
+
+          <div class="form-item">
+            <label for="email">Email</label><br/>
+            <input type="text" name="email" id="email" />
+          </div>
+
+          <p>
+            <label for="comment">What are you looking for?</label><br />
+            <textarea id="comment" name="comment" rows="8" cols="60" placeholder="Enter your comment..."></textarea>
+          </p>
+          <input type="submit" name="submitform" value="Submit">
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>
