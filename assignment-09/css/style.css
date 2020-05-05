@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(10,10,10);
+  color: white;
+}
+
+.section {
+  text-align: center;
+  width: 100%;
+  margin: 50px auto;
+
+}
+
+/** This is a comment **/
+
+#sec-one {
+  background-color: rgb(11, 210, 211);
+  position: absolute;
+  bottom: 0;
+}
+
+#sec-two {
+  background-color: rgb(249, 144, 232);
+}
+
+#sec-three {
+  background-color: rgb(101, 177, 66);
+}
+
+.sec-img {
+  opacity: 60%;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
